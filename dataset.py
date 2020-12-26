@@ -22,22 +22,24 @@ class dataset(nn.Module):
             self.imageName.append(x)
             self.steeringAngle.append(np.float32(y))
 
-        self.steeringAngle = self.steeringAngle/np.max(self.steeringAngle)
-        self.newSteeringAngle = []
+        self.min = np.min(self.steeringAngle)
+        self.max = np.max(self.steeringAngle)
+        self.newSteeringAngle = (self.steeringAngle - self.min)/(self.max - self.min)
+        '''self.newSteeringAngle = []
         for angle in self.steeringAngle:
             if angle < -0.25:
                 angle += 0.25
             elif angle > 0.25:
                 angle -= 0.25
             self.newSteeringAngle.append(angle)
-
+        '''
         self.transform = transform
     def __getitem__(self,idx):
         image = self.imageName[idx]
         steering = self.newSteeringAngle[idx]
         #read the image and prprocess it
         img = cv2.imread(os.path.join(self.imageFolder,image))
-        img = cv2.cvtColor(img,cv2.COLOR_BGR2YUV)
+        img = cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
         if self.transform != None:
             img  = self.transform(img)
         return img,steering
