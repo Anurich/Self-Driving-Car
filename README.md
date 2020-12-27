@@ -30,4 +30,4 @@ Result may not be impressive, I am repeating again it's not trained for large ep
 <img src ="Figure_1.png" />
 
 <h2> Alert & Contribute. </h2>
-I want to say that it is only for research purposes and using this in physical device can be dangerous. Please point out any mistake that i have done or you think is wrong, I am also new in this field and please feel free to contribute.
+I want to say that it is only for research purposes and using this in physical device can be dangerous. Please point out any mistake that i have done or you think if something is wrong, I am also new in this field and please feel free to contribute.
