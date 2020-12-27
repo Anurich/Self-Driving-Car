@@ -24,7 +24,7 @@ Other datset:
   <li> Pytorch==1.6.0</li>
 </ul>
 <h2> Training Infomation & Preprocessing. </h2>
-Model is trained for only 1 epoch due to limited resources, I normalize the data as well try different approaches like calibrated the steering, Perform dataArgumentation techniques. The code contain only two file one is dataset.py which contain the data loader class another is model.py file which contain model and running code.
+Model is trained for only 1 epoch due to limited resources, I normalize the data as well as try different approaches like calibrating a Steering Angle , Perform data Argumentation techniques. The code contain only two file one is dataset.py which contain the data loader class another is model.py file which contain model and main loop.
 <h2> Prediction vs Groundtruth (Steering Angle) </h2>
 Result may not be impressive, I am repeating again it's not trained for large epoch as well data it is trained on is very less.
 <img src ="Figure_1.png" />
