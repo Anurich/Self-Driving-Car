@@ -8,7 +8,7 @@ import os
 from PIL import Image
 # read the data
 
-class dataset(nn.Module):
+class dataset(torch.utils.data.Dataset):
     def __init__(self,transform=None):
         super(dataset,self).__init__()
         self.all_data =None
