@@ -8,7 +8,7 @@ In this project I used my own architecture, I used pretrained network vgg16 trai
 One can try to replicate the same architecture presented in Nvidia paper, Or can use different architecture.
 
 <h2>Dataset Information. </h2>
-A lot of self driving car dataset is available thanks to <b> Comma.ai, Udacity and many other companies </b>, But in my case due to limited resources I cannot train my model in a lot of data, So i keep it simple I trained my model in 44k and use somewhere around 14k for validation and 4k for testing. 
+A lot of self driving car dataset is available thanks to <b> Comma.ai, Udacity and many other companies </b>, But in my case due to limited resources I cannot train my model on a lot of data, So i keep it simple I trained my model on 44k and use somewhere around 14k for validation and 4k for testing. 
 The dataset I use:
 <ul>
   <li>Thanks to SullyChen for making data available: https://github.com/SullyChen/driving-datasets</li>
