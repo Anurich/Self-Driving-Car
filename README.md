@@ -31,7 +31,7 @@ Model is trained for only 1 epoch due to limited resources, I normalize the data
 <h2> Prediction vs Groundtruth (Steering Angle) </h2>
 Result may not be impressive, I am repeating again it's not trained for large epoch as well data it is trained on is very less.</p>
 <figure>
-<img src ="Figure_1.png"/>
+<img src ="Figure_1.png" heigh="300" width="500"/>
   </figure>
 
 <h2> Alert & Contribute. </h2>
