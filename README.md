@@ -29,11 +29,11 @@ Other datset:
 <p>
 Model is trained for only 1 epoch due to limited resources, I normalize the data as well as try different approaches like calibrating a Steering Angle , Performing data Argumentation techniques. The code contain only two file one is dataset.py which contain the data loader class another is model.py file which contain model and main loop.
 <h2> Prediction vs Groundtruth (Steering Angle) </h2>
-Result may not be impressive, I am repeating again it's not trained for large epoch as well data it is trained on is very less.
+Result may not be impressive, I am repeating again it's not trained for large epoch as well data it is trained on is very less.</p>
 <figure>
 <img src ="Figure_1.png"/>
   </figure>
-</p>
+
 <h2> Alert & Contribute. </h2>
 <p>
 The above project is only for research purposes and using this in physical device can be dangerous. Please feel free to point any mistake in code as well any suggestion for improvement, feel free to contribute.
